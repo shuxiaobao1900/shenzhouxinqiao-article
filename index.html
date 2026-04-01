@@ -8,27 +8,27 @@
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;background:#f4f4f4;color:#333;line-height:1.8;font-size:16px;-webkit-font-smoothing:antialiased}
 .wrap{max-width:680px;margin:0 auto;background:#fff}
-img{max-width:100%;display:block;border-radius:4px}
 .body{padding:24px 20px 40px}
 h1{font-size:22px;font-weight:700;color:#1a1a1a;line-height:1.5;margin-bottom:4px}
-.subtitle{font-size:14px;color:#888;margin-bottom:16px}
+.subtitle{font-size:14px;color:#888;margin-bottom:20px}
 h2{font-size:17px;font-weight:700;color:#1a1a1a;margin:28px 0 12px;padding-left:12px;border-left:4px solid #c41230}
 p{font-size:15px;color:#333;line-height:1.9;margin-bottom:14px}
-.img{margin:16px 0}
-.img img{width:100%;border-radius:4px}
+.img{margin:18px 0}
+.img img{width:100%;display:block;border-radius:4px}
 .caption{font-size:12px;color:#999;text-align:center;margin-top:6px}
-.capability{margin:20px 0;padding:18px 20px;background:#fafafa;border-radius:8px;border-left:4px solid #c41230}
-.capability .cap-title{font-size:13px;font-weight:700;color:#c41230;margin-bottom:10px;letter-spacing:0.5px}
-.capability ul{list-style:none;padding:0}
-.capability ul li{font-size:14px;color:#444;line-height:1.9;padding-left:14px;position:relative}
-.capability ul li::before{content:"·";position:absolute;left:0;color:#c41230;font-weight:700}
+blockquote{margin:16px 0;padding:14px 18px;background:#fafafa;border-left:4px solid #c41230;border-radius:0 4px 4px 0}
+blockquote p{font-size:14px;color:#444;margin-bottom:0;line-height:1.9}
+.products{margin:18px 0}
+.product-item{margin-bottom:14px;padding:14px 16px;background:#fafafa;border-radius:6px;border-left:3px solid #c41230}
+.product-item .product-name{font-size:15px;font-weight:700;color:#1a1a1a;margin-bottom:4px}
+.product-item p{font-size:14px;color:#555;margin-bottom:0;line-height:1.8}
 .end{margin-top:28px;padding:18px 20px;background:linear-gradient(135deg,#fafafa,#f2f2f2);border-radius:8px;font-size:15px;color:#444;line-height:2}
 .end strong{color:#c41230}
-.meta{margin-top:20px;padding-top:16px;border-top:1px solid #eee;font-size:13px;color:#999;display:flex;align-items:center;gap:10px}
-.avatar{width:36px;height:36px;border-radius:50%;background:#c41230;display:flex;align-items:center;justify-content:center;color:#fff;font-size:14px;font-weight:700;flex-shrink:0}
-.meta-text .name{font-size:13px;font-weight:600;color:#333}
-.meta-text .date{font-size:12px;color:#999;margin-top:1px}
-@media(max-width:480px){.body{padding:16px 14px 32px}.wrap{margin:0}h1{font-size:20px}}
+.footer{margin-top:24px;padding-top:16px;border-top:1px solid #eee;display:flex;align-items:center;gap:10px}
+.avatar{width:38px;height:38px;border-radius:50%;background:#c41230;display:flex;align-items:center;justify-content:center;color:#fff;font-size:15px;font-weight:700;flex-shrink:0}
+.footer-text .name{font-size:13px;font-weight:600;color:#333}
+.footer-text .date{font-size:12px;color:#999;margin-top:1px}
+@media(max-width:480px){.body{padding:16px 14px 32px}h1{font-size:20px}}
 </style>
 </head>
 <body>
@@ -38,60 +38,79 @@ p{font-size:15px;color:#333;line-height:1.9;margin-bottom:14px}
 <h1>聚势华为生态，赋能千行百业</h1>
 <div class="subtitle">神州新桥亮相北京ISV×SI生态共建活动</div>
 
-<p>3月30日，以"商业AI·数智新程"为主题的北京政企商业市场ISV×SI生态共建活动圆满举办。北京神州新桥科技有限公司作为华为核心生态伙伴受邀出席，与众多行业同仁齐聚一堂，共同展示AI技术落地实践成果，持续深化开放共赢、协同共进的数智生态建设。</p>
-
-<div class="img"><img src="img-1.png" alt="活动现场"></div>
+<p>当下计算产业浪潮奔涌，AI作为数字经济核心引擎，正全面赋能政企数字化转型。3月30日，以"商业AI·数智新程"为主题的华为北京政企ISV×SI生态共建活动在北京举办。北京神州新桥科技有限公司作为华为长期合作的重要伙伴受邀参会，携AI产品方案亮相活动现场，集中展示了公司在智能办公、企业知识管理、数智营销等场景的落地能力。</p>
 
 <h2>华为搭台，共启数智新局</h2>
 
-<p>活动中，华为中国政企解决方案规划与集成验证部部长朱丹、华为北京政企Marketing与解决方案销售部部长于督分别致辞，系统阐述了华为在"行业+AI"发展中的生态战略与伙伴支持方向——依托昇腾算力与全栈AI解决方案，通过六大区域OpenLab及云上平台，为伙伴提供从技术支撑到市场拓展的全面赋能。</p>
+<p>华为中国政企解决方案规划与集成验证部部长朱丹、华为北京政企Marketing与解决方案销售部部长于督分别致辞，阐述了华为在"行业+AI"发展中的支持举措——华为将依托昇腾算力与全栈AI解决方案，通过六大区域OpenLab及云上平台，为伙伴提供从技术支撑到市场拓展的系统性助力。华为北京政企昇腾产业技术总监郑杰分享了行业AI发展风向，指出昇腾在安全可信、高性能、本地化部署方面具备核心优势，可满足金融、政务、科研等重点领域的智能化需求。</p>
 
-<p>华为北京政企昇腾产业技术总监郑杰深入解读了行业AI发展风向，强调昇腾算力在安全可信、高性能、本地化部署方面的核心优势，这与神州新桥长期深耕企业级AI落地的方向高度契合，也为双方在政企数智化场景的进一步协作奠定了基础。</p>
+<p>活动现场举行的ISV和SI合作框架协议签约仪式，标志着华为与生态伙伴合作的进一步深化。北京神州新桥科技有限公司作为ISV×SI伙伴代表之一参与签署合作框架协议，各方将充分发挥在专业、技术与行业影响力方面的独特优势，进一步打通技术研发、方案集成与市场落地全链条，协同推进企业数智化进程。</p>
 
-<p>活动现场举行了ISV和SI合作框架协议签约仪式。神州新桥作为华为长期合作的SI伙伴参与其中，双方将持续深化在企业数智化进程中的协同合作，共同推动AI技术在政企场景的落地与规模化应用。</p>
+<div class="img">
+  <img src="img-signing.png" alt="签约仪式现场">
+  <div class="caption">ISV和SI合作框架协议签约仪式现场</div>
+</div>
 
 <h2>登台发言，展示核心能力</h2>
 
-<p>在合作伙伴分享环节，北京神州新桥科技有限公司AI事业部总经理迟宝佳向与会嘉宾系统介绍了公司的核心能力与创新实践。</p>
+<p>在伙伴分享环节，北京神州新桥科技有限公司AI事业部总经理迟宝佳向与会嘉宾系统介绍了公司的核心能力与创新实践。</p>
 
-<div class="img"><img src="img-2.png" alt="迟宝佳发言"><div class="caption">北京神州新桥科技有限公司AI事业部总经理 迟宝佳</div></div>
+<blockquote>
+  <p>公司专注于AI大模型与行业需求的链接、赋能与集成，依托AI技术服务与AI应用产品两大中心，构建安全灵活的AI服务体系。在智能办公、数字营销、知识问答等场景，神州新桥已实现创新突破，成功将AI能力转化为可落地的解决方案。</p>
+</blockquote>
 
-<p>迟宝佳表示，公司专注于AI大模型与行业需求的链接、赋能与集成，依托AI技术服务与AI应用产品两大中心，构建安全灵活的AI服务体系。在智能办公、数字营销、知识问答等场景，神州新桥已将AI能力转化为可直接落地的行业解决方案。</p>
-
-<div class="img"><img src="img-3.jpg" alt="现场照片"></div>
-
-<h2>产品方案，技术实力一览</h2>
-
-<p>神州新桥的AI产品体系以国产算力为底座，基于鲲鹏+昇腾+Atlas构建自主可控的基础设施，并深度集成Qwen、DeepSeek等主流大模型，形成从底层算力到上层应用的完整闭环。</p>
-
-<div class="capability">
-  <div class="cap-title">三款核心产品</div>
-  <ul>
-    <li><strong>AI数字人员工</strong>：具备自然语言交互能力，可承接客服、引导、问答等场景，支持全终端部署</li>
-    <li><strong>企业级向量知识库</strong>：完整覆盖数据采集→处理→向量索引→召回统计的RAG全链路，支持大文档处理与智能检索</li>
-    <li><strong>镜像企业</strong>：将企业知识体系数字化，构建可查询、可运营的智能知识中台</li>
-  </ul>
+<div class="img">
+  <img src="img-speech.png" alt="迟宝佳发言">
+  <div class="caption">北京神州新桥科技有限公司AI事业部总经理 迟宝佳</div>
 </div>
 
-<div class="capability">
-  <div class="cap-title">100+ 成熟业务场景</div>
-  <ul>
-    <li>支持政策分析、智能问答、会议纪要、辅助研发、智能客服、演讲材料生成等典型政企场景</li>
-    <li>全终端覆盖：浏览器插件 / 网页端 / 桌面端 / APP / 企业微信 / 飞书，无缝融入既有工作流</li>
-    <li>三层安全防护体系（应用层 / 服务层 / 模型层），满足政务、金融等高合规场景需求</li>
-  </ul>
+<h2>展台交流，客户关注落地路径</h2>
+
+<p>活动期间，神州新桥的AI应用解决方案获得了客户的积极关注，多位来自政务、金融、教育等行业的客户驻足展台，围绕AI办公智能体在企业内部知识管理场景的落地路径，以及与现有IT系统的对接方案展开详细交流。客户重点关注以下方面：一是长文档处理与知识检索在复杂业务场景下的实际效果；二是AI应用与企业现有IT架构的融合难度与实施周期；三是多终端覆盖能力在跨部门协同场景下的支撑情况。</p>
+
+<div class="img">
+  <img src="img-booth.png" alt="展台交流">
+  <div class="caption">展台现场客户交流</div>
 </div>
 
-<p>在华为昇腾算力与全栈AI解决方案的支撑下，神州新桥将自身在大模型集成与行业场景理解方面的积累与华为生态深度结合，为政务、金融、科研等重点领域提供从咨询、部署到运维的一站式AI落地服务。</p>
+<h2>产品方案，技术实力全面呈现</h2>
+
+<p>神州新桥深扎政企信息化与系统集成领域二十余年，近年来持续投入AI大模型的行业落地实践，已形成成熟的AI产品与交付能力。本次活动重点展示了面向企业通用办公场景的AI产品方案，底层全面支持昇腾系列服务器与华为云EI平台，可灵活部署于私有云、混合云、公有云等多种环境。</p>
+
+<p>在场景覆盖上，产品支持长文档处理、智能问答、会议助手、智能审核等100+高频办公场景，终端覆盖浏览器插件、网页、桌面端、移动端APP、企业微信、飞书等多种形态，与现有业务系统零侵入融合，不改造企业原有IT架构。AI应用、工具、知识库三大模块统一管理，支持统一身份认证与权限管控。</p>
+
+<p>本次活动还重点展示了三款创新产品：</p>
+
+<div class="products">
+  <div class="product-item">
+    <div class="product-name">AI 数字人员工</div>
+    <p>具备自然语言交互能力，可承担标准化、重复性的工作流程，助力员工聚焦更高价值的工作。</p>
+  </div>
+  <div class="product-item">
+    <div class="product-name">企业级向量知识库</div>
+    <p>覆盖数据采集、处理、向量索引、召回统计的RAG完整链路，实现多文档语义检索与智能关联，有效提升企业知识资产的利用率。</p>
+  </div>
+  <div class="product-item">
+    <div class="product-name">镜像企业</div>
+    <p>通过构建与企业组织架构和业务流程深度对齐的AI系统，实现内部管理运营的智能化升级。</p>
+  </div>
+</div>
+
+<div class="img">
+  <img src="img-product.png" alt="产品方案展示">
+  <div class="caption">神州新桥AI产品方案展示</div>
+</div>
+
+<p>作为华为生态的重要参与者，神州新桥将自身在AI大模型集成与行业场景理解方面的专长与华为昇腾算力及全栈AI解决方案紧密协同，为政务、金融、科研等重点领域客户提供覆盖咨询、部署到运维的全链路AI服务。</p>
 
 <div class="end">
   <strong>聚生态合力，启数智新程。</strong><br><br>
-  北京神州新桥科技有限公司将继续深耕"伙伴+华为"生态，聚焦智能办公、数字营销、知识问答等优势领域，以扎实的产品能力和丰富的落地经验，携手华为共赢商业AI时代发展新机遇。
+  北京神州新桥科技有限公司将继续聚焦AI产品与集成服务，深耕智能办公、数字营销、知识问答等优势领域，携手华为及广大生态伙伴推进落地，以AI技术真正赋能行业、创造价值，共赢商业AI时代。
 </div>
 
-<div class="meta">
+<div class="footer">
   <div class="avatar">新</div>
-  <div class="meta-text">
+  <div class="footer-text">
     <div class="name">北京神州新桥科技有限公司</div>
     <div class="date">2026年3月30日 · 北京</div>
   </div>
